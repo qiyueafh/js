@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>density</title>
+    <script>
+      function density(){
+            var R=prompt("请输入片的直径，单位mm");
+            var h=prompt("请输入片的厚度，单位mm");
+            var w=prompt("请输入片的重量，单位g");
+            var r=R/20;
+            h1=h/10;
+            var s=Math.PI*r*r;
+            var v=s*h1;
+            var density=w/v;
+            alert("该片的密度是"+density+"(g/cm^3)");
+        }
+        for(;;){
+            density();
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
